@@ -533,6 +533,16 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
+easytimer-react-hook@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/easytimer-react-hook/-/easytimer-react-hook-2.1.0.tgz#31bf03d2a61dec439fbc724f42ffe328fab506e5"
+  integrity sha512-H8ORA5vdxFko/X9/F/ZSC0iDsPxsjHRW394MgNTux0K+qN+/L3YxeCZuqY5Vi2k5ThdylGsqIajZVZWOcfZeXQ==
+
+easytimer.js@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/easytimer.js/-/easytimer.js-4.6.0.tgz#43b4c5adf5597e96023a617545a977cd18506b04"
+  integrity sha512-2kl/X/HnB5mKJ29x7N908CrNl5y8yDgDuD8U7TXTEHs/lBFVXT91DSoiXncYnwC1TPPDfomlLDKPaTSqT3dygQ==
+
 esbuild@^0.18.10:
   version "0.18.20"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.18.20.tgz#4709f5a34801b43b799ab7d6d82f7284a9b7a7a6"
