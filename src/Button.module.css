@@ -1,0 +1,13 @@
+.button {
+    all: unset;
+    outline: revert;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #666;
+    width: 100px;
+}
+
+.button:hover {
+    color: sandybrown;
+    cursor: pointer;
+}

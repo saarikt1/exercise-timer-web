@@ -1,21 +1,17 @@
-import "./App.css";
-import useTimer from "easytimer-react-hook";
+import styles from "./App.module.css";
+import { Button } from "./Button.tsx";
 
 function App() {
-  const [timer, _isTargetAchieved] = useTimer({
-    startValues: { minutes: 0, seconds: 0 },
-  });
-
   return (
-    <>
-      <h1>Timer</h1>
-      <div className="card">
-        <button onClick={() => timer.start()}>
-          {timer.getTimeValues().toString()}
-        </button>
-        <p>Click the timer to start</p>
+    <div className={styles.app}>
+      <h1>Exercise timer</h1>
+      <div className={styles.buttonContainer}>
+        <Button label={"FOR TIME"} />
+        <Button label={"AMRAP"} />
+        <Button label={"EMOM"} />
+        <Button label={"TABATA"} />
       </div>
-    </>
+    </div>
   );
 }
 
