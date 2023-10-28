@@ -1,11 +1,12 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import useTimer from 'easytimer-react-hook'
-
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import useTimer from "easytimer-react-hook";
 
 function App() {
-  const [timer, _isTargetAchieved] = useTimer({startValues: {minutes: 0, seconds: 0} })
+  const [timer, _isTargetAchieved] = useTimer({
+    startValues: { minutes: 0, seconds: 0 },
+  });
 
   return (
     <>
@@ -30,7 +31,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
