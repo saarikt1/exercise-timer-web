@@ -9,9 +9,8 @@
 .buttonContainer {
     display: flex;
     flex-direction: column;
-    margin-top: 1.5rem;
 }
 
-.buttonContainer button:not(:last-child) {
-   margin-bottom: 1rem;
+.buttonContainer > a {
+    margin-top: 1.5rem;
 }

@@ -4,12 +4,17 @@ import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./ErrorPage.tsx";
+import TimerPage from "./TimerPage.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: "for-time",
+    element: <TimerPage />,
   },
 ]);
 
